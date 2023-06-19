@@ -35,12 +35,10 @@ contract AuctionTest is Test {
         assertEq(block.timestamp, t + 100, "This is true");
         rewind(10);
         assertEq(block.timestamp, t + 90, "Timestamp Rewind by 10s");
-
-        
     }
-    function testBlockNumber() public{
-       
+
+    function testBlockNumber() public {
         vm.roll(999);
-        assertEq(block.number,999);
+        assertEq(block.number, 999);
     }
 }
