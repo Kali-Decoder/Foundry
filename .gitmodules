@@ -1,7 +1,16 @@
-[submodule "forge-dapp/lib/forge-std"]
-	path = forge-dapp/lib/forge-std
-	url = https://github.com/foundry-rs/forge-std
 
-[submodule "lib/openzeppelin-contracts"]
-	path = lib/openzeppelin-contracts
-	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "DSC/lib/forge-std"]
+	path = DSC/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "DSC/lib/openzeppelin-contracts"]
+	path = DSC/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
+[submodule "simple-storage-foundry/lib/forge-std"]
+	path = simple-storage-foundry/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "fund-me-foundry/lib/forge-std"]
+	path = fund-me-foundry/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "fund-me-foundry/lib/chainlink-brownie-contracts"]
+	path = fund-me-foundry/lib/chainlink-brownie-contracts
+	url = https://github.com/smartcontractkit/chainlink-brownie-contracts
