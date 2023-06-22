@@ -23,3 +23,9 @@
 [submodule "lottery-foundry/lib/solmate"]
 	path = lottery-foundry/lib/solmate
 	url = https://github.com/transmissions11/solmate
+[submodule "ERC20-foundry/lib/forge-std"]
+	path = ERC20-foundry/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "ERC20-foundry/lib/openzeppelin-contracts"]
+	path = ERC20-foundry/lib/openzeppelin-contracts
+	url = https://github.com/Openzeppelin/openzeppelin-contracts
