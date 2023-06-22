@@ -14,3 +14,12 @@
 [submodule "fund-me-foundry/lib/chainlink-brownie-contracts"]
 	path = fund-me-foundry/lib/chainlink-brownie-contracts
 	url = https://github.com/smartcontractkit/chainlink-brownie-contracts
+[submodule "lottery-foundry/lib/forge-std"]
+	path = lottery-foundry/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "lottery-foundry/lib/chainlink-brownie-contracts"]
+	path = lottery-foundry/lib/chainlink-brownie-contracts
+	url = https://github.com/smartcontractkit/chainlink-brownie-contracts
+[submodule "lottery-foundry/lib/solmate"]
+	path = lottery-foundry/lib/solmate
+	url = https://github.com/transmissions11/solmate
