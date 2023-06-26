@@ -1,13 +1,14 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity 0.8.7;
 
-import {ManualToken} from "../src/ManualToken.sol";
 import {Script} from "forge-std/Script.sol";
 
-contract DeployManualToken is Script {
+import {RoadClosed} from "../src/RoadClosed.sol";
+
+contract DeployRoadClosed is Script {
     function run() public {
         vm.startBroadcast();
-        new ManualToken();
+        new RoadClosed();
         vm.stopBroadcast();
     }
 }

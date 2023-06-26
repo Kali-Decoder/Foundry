@@ -29,3 +29,12 @@
 [submodule "ERC20-foundry/lib/openzeppelin-contracts"]
 	path = ERC20-foundry/lib/openzeppelin-contracts
 	url = https://github.com/Openzeppelin/openzeppelin-contracts
+[submodule "ERC721-foundry/lib/forge-std"]
+	path = ERC721-foundry/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "Foundry-tests/Quil-ctf/lib/forge-std"]
+	path = Foundry-tests/Quil-ctf/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "Quil-ctf/lib/forge-std"]
+	path = Quil-ctf/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
