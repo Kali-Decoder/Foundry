@@ -1,7 +1,6 @@
 // SPDX-License-Identifier: MIT
 
 pragma solidity 0.8.7;
-
 contract VIP_Bank{
 
     address public manager;
@@ -44,4 +43,13 @@ contract VIP_Bank{
         return address(this).balance;
     }
 
+
 }
+
+// cast call $CONTRACT_ADDRESS_VIPCONTRACT "manager()" --rpc-url $RPC_URL --private-key $PRIVATE_KEY
+// cast send $CONTRACT_ADDRESS_VIPCONTRACT "addVIP(address)" "0x70997970C51812dc3A010C7d01b50e0d17dc79C8" --rpc-url $RPC_URL --private-key $PRIVATE_KEY
+// cast call $CONTRACT_ADDRESS_VIPCONTRACT "VIP(address)" "0x70997970C51812dc3A010C7d01b50e0d17dc79C8" --rpc-url $RPC_URL --private-key $PRIVATE_KEY
+// cast send $CONTRACT_ADDRESS_VIPCONTRACT "deposit()" --value "0.05ether" "0x70997970C51812dc3A010C7d01b50e0d17dc79C8" --rpc-url $RPC_URL --private-key 0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d
+// cast call $CONTRACT_ADDRESS_VIPCONTRACT "balances(address)" "0x70997970C51812dc3A010C7d01b50e0d17dc79C8" --rpc-url $RPC_URL --private-key 0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d
+// cast call $CONTRACT_ADDRESS_VIPCONTRACT "contractBalance()"  --rpc-url $RPC_URL --private-key $PRIVATE_KEY
+// cast send $CONTRACT_ADDRESS_VIPCONTRACT "withdraw(uint)" "400" "0x70997970C51812dc3A010C7d01b50e0d17dc79C8" --rpc-url $RPC_URL --private-key 0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d
